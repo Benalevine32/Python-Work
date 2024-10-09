@@ -1,3 +1,4 @@
+#merge sory
 import random
 
 def mergeSort(arr):
