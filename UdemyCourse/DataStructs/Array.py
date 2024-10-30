@@ -30,5 +30,35 @@ print (" ")
 my_array1 = array('i' , [8,9,10])
 my_array.extend(my_array1)
 print(my_array)
+print(" ")
 
+#Adding elements to an array from a lists
 
+tempList = [24,25,26]
+my_array.fromlist(tempList)
+print(my_array)
+print(" ")
+
+#Remove element with remove function
+my_array.remove(26)
+print(my_array)
+print(" ")
+
+#Removing last element from arrya
+my_array.pop()
+print(my_array)
+print(" ")
+
+#Index method to find any given method
+print(my_array.index(3))
+print(" ")
+
+#Reverse the array using build in python function
+
+my_array.reverse()
+print(my_array)
+print(" ")
+
+#Get array buffer information
+print(my_array.buffer_info())
+print(" ")
