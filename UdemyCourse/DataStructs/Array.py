@@ -62,3 +62,18 @@ print(" ")
 #Get array buffer information
 print(my_array.buffer_info())
 print(" ")
+
+#count in python prints the frequency of the occurence of the number in the array
+my_array.append(11)
+print(my_array.count(11))
+print(" ")
+
+#convers array to list
+arrayToList = my_array.tolist()
+print(arrayToList)
+print(" ")
+
+#Sliceing array IMPORTANT FOR MANY PROBLEMS
+
+print(my_array[5:])
+print(" ")
