@@ -11,7 +11,7 @@ print(" ")
 #print(" ")
 
 #Accessing any element
-#a[i][j] i = row / j = column
+#a[i][j] i = row / j = column bhb
 
 def accessElements(array, rowIndex, columnIndex):
     if rowIndex >= len(array) or columnIndex >= len(array[0]):
