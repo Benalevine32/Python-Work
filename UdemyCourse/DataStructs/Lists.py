@@ -63,3 +63,34 @@ def searchList(array, target):
         return 'Element is not found  '
     
 #hfdsnj
+
+#Concating two lists
+a = [1,2,3]
+b = [4,5,6]
+c = a + b 
+print (c)
+
+#Creates repeating elements based on the number
+starOperator = [2]
+starOperator *= 3
+print(starOperator)
+
+print(len(integers))
+print(min(integers))
+print(max(integers))
+print(sum(integers))
+
+#adding user info to a list
+myList = list()
+while True:
+    num = input("Enter a number: ")
+    if num == 'done':
+        break
+    try:
+        num = float(num)
+    except:
+        print('Invalid input')
+        continue
+    myList.append(num)
+    average = sum(myList) / len(myList)
+print("average: ", average)
