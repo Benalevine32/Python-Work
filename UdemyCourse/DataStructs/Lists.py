@@ -81,16 +81,21 @@ print(max(integers))
 print(sum(integers))
 
 #adding user info to a list
-myList = list()
-while True:
-    num = input("Enter a number: ")
-    if num == 'done':
-        break
-    try:
-        num = float(num)
-    except:
-        print('Invalid input')
-        continue
-    myList.append(num)
-    average = sum(myList) / len(myList)
-print("average: ", average)
+#myList = list()
+#while True:
+#   num = input("Enter a number: ")
+#   if num == 'done':
+     #   break
+ #   try:
+    #    num = float(num)
+ #   except:
+   #     print('Invalid input')
+  #      continue
+ #  myList.append(num)
+ #   average = sum(myList) / len(myList)
+#rint("average: ", average)
+
+#Converting string to list of letter
+a ='Bond'
+b =list(a)
+print(b)
