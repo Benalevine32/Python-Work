@@ -99,3 +99,23 @@ print(sum(integers))
 a ='Bond'
 b =list(a)
 print(b)
+
+list = [1,2,3,4,5]
+new_list = [i*2 for i in list]
+print(new_list)
+
+langauge = 'Python'
+langauge_letters = [letter for letter in langauge]
+print(langauge_letters)
+
+prev_list = [-1,10, -20, 2, 3, -5, 4]
+new_list = [i for i in prev_list if i > 0]
+print(new_list)
+
+sentence = 'The name is Bond, James Bond'
+def isConsonant(char):
+    vowels = 'aeiou'
+    return char.isalpha() and char.lower() not in vowels
+
+consonants = [char for char in sentence if isConsonant(char)]
+print(consonants)
