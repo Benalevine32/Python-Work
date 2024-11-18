@@ -112,6 +112,7 @@ prev_list = [-1,10, -20, 2, 3, -5, 4]
 new_list = [i for i in prev_list if i > 0]
 print(new_list)
 
+#Creating a list of consonants that exist in sentence
 sentence = 'The name is Bond, James Bond'
 def isConsonant(char):
     vowels = 'aeiou'
