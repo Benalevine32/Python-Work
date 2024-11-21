@@ -38,3 +38,12 @@ def SearchDictionay(dict, key):
     else:
         print("Key not found")
 SearchDictionay(engToEsp, "one")
+
+
+#Deleting / Removing an element of the dictionary
+engToEsp["five"] = "cinco"
+print(engToEsp)
+del engToEsp["Five"]
+print(engToEsp)
+
+#Built in dictionary methods 
